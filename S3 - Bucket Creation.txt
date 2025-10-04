@@ -1,0 +1,35 @@
+Creating bucket
+----------------------
+Services ----> Storage ----> S3
+
+Create Bucket 
+Bucket Name  -         ( It should be unique globally )
+		( No uppercase )
+		( should not contain invalid char like '  ,  [  #      )
+Check bucket name restriction in google
+
+bucket name -  test-dsgdfsgdfsgdfs123
+regions  -  mumbai      
+Next ---> Next --> uncheck  block public access  ---> Next ----> Create bucket.
+
+Note:  Buckets created are available global. Not like Ec2  machines
+	Observation: We can see global in dashboard.
+
+Create another bucker
+bucket name -  demo-dsgdfsgdfsgdfs123
+Select region as -  Singapore  
+
+Observe: Both the buckets are available in the dashboard.
+
+
+How to Upload the objects ( data ) in the bucket?
+-------------------------------------------------------
+click on the  test bucket
+Upload ---> Add files ---> select any image ---> Next ---> Manage public permissions --> Grant public read access  ---> Next ---> Next ---> Upload
+
+Note:  As bucket is public,  and object is also public,   anyone in the world can access the content.
+
+Click on the Object ---> Get Object URL  
+Using Object URL, anyone can access.
+
+
